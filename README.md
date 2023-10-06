@@ -4,10 +4,14 @@ generator of the object builder
 ## How to use
 1. Insert required object for which the builder should be created to the project (to Directory 'ClassesForCreateBuilder')
 2. Replace 'MyObject' by required object name in Program
-> string generatorClass = BuilderGenerator.BuilderGenerator.Generate(typeof(MyObject),false);
+```C#
+string generatorClass = BuilderGenerator.BuilderGenerator.Generate(typeof(MyObject),false);
+```
 3. Run application
 
 ## example of output
+
+```C#
 public class MyObjectBuilder
 {
         private MyObject _myObject;
@@ -36,3 +40,4 @@ public class MyObjectBuilder
         }
 
 }
+```
