@@ -1,4 +1,4 @@
-# bilderGenerator
+# builderGenerator
 generator of the object builder
 
 ## How to use
